@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<title> CONA:PAE </title>
+	 </head>
+ 	 <body>
+ 	 <link href="style.css" rel="stylesheet" type="text/css">
+ 	 <div class="titulod">
+	 INFORMATICA RECICLAJE
+	 </div>
+	 <div class="logo">
+	 <img src="assets\logo.svg" alt="Descripción de la imagen">
+	 <div class="menu">
+	 MENU DE LA PAGINA <br>
+	 <a href="invitacion.html" target="_self"> INVITACION </a> <br>
+	 <a href="reciclaje.html" target="_self"> ¿QUE ES RECICLAR? </a> <br>
+	 <a href="taller.html" target="_self"> TALLER DE RECICLAJE </a> <br>
+	 <a href="Pacman/JUEGO.html" target="_self"> PACMAN </a> <br>
+	 <a href="Buscaminas/juego.html" target="_self"> BUSCAMINAS </a> <br>
+	 <a href="nosotros.html" target="_self"> SOBRE NOSTROS </a> <br>	          
+<a href="https://alumno.conalep.edu.mx/saac" target="_blank"> PORTAL CONALEP </a> <br>
+	 </div>
+	 </div>
+	 </body>
+	 <hr>
+           <h1 style="font-size:50px; font-family:arial">BUSCAMINAS DE RECICLAJE</h1>
+<h1 style="font-family:Arial"> INSTRUCCIONES <br> Elige cuantos papeles (bombas) y numero de celdas quieres para empezar a jugar pulsando en el boton generar (las banderas son cubos, con clic derecho las usas) </h1>
+	   <div class="main">
+           <div class="header">
+           <div class="formulario-juego">
+           <div class="formulario">
+           <div class="entrada">
+           <label for="tamaño">Tamaño (min 6, max 20): </label>
+           <input id="tamaño" type="number" min="6" max="20" value="10">
+           </div>
+           <div class="entrada">
+           <label for="num-bombas">Número de papeles (min 1, max: Tamaño x Tamaño): </label>
+           <input id="num-bombas" type="number" min="1" value="20">
+           </div>
+           </div>
+           <button class="btn-generar">Generar</button>
+           </div>
+           </div>
+           <div class="contenedor-juego hidden">
+           <h2>Banderas colocadas: <span id="num-banderas"></span> (faltan <span id="banderas-restantes"></span>)</h2>
+           <div class="juego"></div>
+           <div class="resultado-juego"></div>
+        </div>
+    </div>
+</html>
